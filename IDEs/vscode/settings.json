@@ -1,0 +1,298 @@
+{
+  "activitusbar.alignment": "Right",
+  "activitusbar.priority": 0,
+  "activitusbar.views": [
+    {
+      "name": "explorer",
+      "codicon": "files"
+    },
+    {
+      "name": "search",
+      "codicon": "search"
+    },
+    {
+      "name": "scm",
+      "codicon": "source-control"
+    },
+    {
+      "name": "debug",
+      "codicon": "debug-alt"
+    },
+    {
+      "name": "extensions",
+      "codicon": "extensions"
+    },
+    {
+      "name": "extension.testExplorer",
+      "codicon": "checklist",
+      "tooltip": "View Go Test Explorer"
+    }
+  ],
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "dart.closingLabels": false,
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.lineLength": 117,
+  "dart.showMainCodeLens": false,
+  "debug.console.fontFamily": "'M+ 1mn', LetterGothicFS-Medium",
+  "debug.console.lineHeight": 16,
+  "debug.console.wordWrap": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'M+ 1mn', Mononoki, LetterGothicFS-Medium, LetterGothicMono, TheSansMonoCd-W5Regular, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastColumn": 2,
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.tokenColorCustomizations": {
+    "[Community Material Theme]": {
+      // Solarized Dark > Cyan color
+      "functions": "#2aa198"
+      // "functions": "#1c9f94"
+      // "functions": "#2eb7ae"
+      // "functions": "#26968f"
+      // "functions": "#29a59d"
+    }
+  },
+  "git.confirmSync": false,
+  "go.formatTool": "gofmt",
+  "go.useLanguageServer": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.coverOnSingleTest": true,
+  "go.lintTool": "golangci-lint",
+  "python.formatting.provider": "black",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'mplus Nerd Font', 'M+ 1mn', monospace",
+  "vetur.validation.template": false,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Community Material Theme",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.startupEditor": "none",
+  "code-runner.executorMap": {
+    "rust": "cargo run --bin $fileNameWithoutExt $fileName"
+  },
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Community Material Theme]": {
+      "activityBar.background": "#002b36",
+      "activityBarBadge.background": "#004c5f",
+      "activityBarBadge.foreground": "#B5D5D1",
+      "breadcrumb.background": "#002b36",
+      "dropdown.background": "#002b36",
+      "dropdown.listBackground": "#002b36",
+      "editorPane.background": "#002b36",
+      "editorGroupHeader.tabsBackground": "#002b36",
+      "editor.background": "#002b36",
+      "editor.foreground": "#B5D5D1",
+      "editor.findMatchBorder": "#efff13",
+      "editorRuler.foreground": "#0f3c47",
+      "editor.selectionForeground": "#FF0000",
+      // "editor.selectionHighlightBorder": "#03958e",
+      "editor.selectionHighlightBorder": "#00ff22",
+      "editor.selectionHighlightBackground": "#002b36",
+      "editor.lineHighlightBackground": "#023b49",
+      "editorHoverWidget.border": "#144d5c",
+      "editorHoverWidget.background": "#0f3c47",
+      "editorSuggestWidget.border": "#144d5c",
+      "editorSuggestWidget.background": "#003542",
+      "editorSuggestWidget.foreground": "#81CBC4",
+      "input.background": "#002b36",
+      "inputOption.activeBackground": "#002b36",
+      "notifications.background": "#063d4b",
+      "panel.background": "#002b36",
+      "panelTitle.activeForeground": "#82ceba",
+      "panelTitle.inactiveForeground": "#629184",
+      "quickInput.background": "#013744",
+      "quickInputTitle.background": "#002b36",
+      "sash.hoverBorder": "#629184",
+      "settings.checkboxBackground": "#014c5f",
+      "settings.textInputBackground": "#014c5f",
+      "settings.dropdownBackground": "#014c5f",
+      "settings.numberInputBackground": "#014c5f",
+      "sideBar.background": "#002b36",
+      "sideBarSectionHeader.background": "#002b36",
+      "sideBarSectionHeader.foreground": "#43a2b9",
+      "sideBar.foreground": "#769bac",
+      "statusBar.background": "#002b36",
+      "statusBar.foreground": "#668594",
+      "tab.activeBackground": "#002b36",
+      "tab.inactiveBackground": "#002b36",
+      "tab.activeForeground": "#b0e88d"
+    },
+    "[Community Material Theme High Contrast]": {
+      "editor.background": "#192227",
+      "editorGroupHeader.tabsBackground": "#192227",
+      "editorGroup.dropBackground": "#192227",
+      "breadcrumb.background": "#192227",
+      "tab.inactiveBackground": "#192227",
+      "tab.activeForeground": "#5ec59c"
+    },
+    "[Qiita]": {
+      "statusBar.background": "#374549"
+    },
+    "[Solarized Dark]": {
+      "breadcrumb.foreground": "#508670",
+      "breadcrumb.focusForeground": "#5ec59c",
+      "breadcrumb.activeSelectionForeground": "#508670",
+      "breadcrumbPicker.background": "#374549",
+      "editor.lineHighlightBackground": "#0b2025",
+      "editor.background": "#012C39",
+      "editorCursor.background": "#012C39",
+      "editorCursor.foreground": "#60e6b1",
+      "editorLineNumber.foreground": "#1e523d",
+      "editorLineNumber.activeForeground": "#379b73",
+      "editorGroupHeader.tabsBackground": "#012C39",
+      "tab.activeBackground": "#012C39",
+      "tab.activeBorder": "#3db38f",
+      "tab.activeForeground": "#1ce9a8",
+      "tab.inactiveBackground": "#012C39",
+      "sideBar.background": "#012C39",
+      "sideBar.border": "#002b36",
+      "sideBarSectionHeader.background": "#012C39",
+      "sideBarSectionHeader.foreground": "#169261",
+      "sideBarTitle.foreground": "#508670",
+      "statusBar.background": "#012C39",
+      "statusBar.foreground": "#508670",
+      "statusBar.debuggingBackground": "#002b36",
+      "statusBar.debuggingForeground": "#C6A82A",
+      "statusBar.noFolderBackground": "#002b36"
+    }
+  },
+  // "[vue]": {
+  //   "editor.defaultFormatter": "octref.vetur"
+  // },
+  "[javascript]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 120,
+  // "prettier.disableLanguages": ["[markdown]", "yaml"],
+  "prettier.disableLanguages": ["markdown", "yml", "yaml", "javascript"],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "quarkus.tools.debug.terminateProcessOnExit": "Always terminate",
+  "quarkus.tools.alwaysShowWelcomePage": false,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/devisions/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "[markdown]": {
+    // "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdownlint.config": {
+    "MD001": false,
+    "MD009": false,
+    "MD010": false,
+    "MD012": false,
+    "MD014": false,
+    "MD022": false,
+    "MD024": false,
+    "MD025": false,
+    "MD031": false,
+    "MD032": false,
+    "MD033": false,
+    "MD036": false,
+    "MD040": false,
+    "MD041": false
+  },
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "java.semanticHighlighting.enabled": true,
+  "terminal.integrated.fontWeightBold": "normal",
+  "window.menuBarVisibility": "hidden",
+  "window.customMenuBarAltFocus": false,
+  "window.enableMenuBarMnemonics": false,
+  "workbench.activityBar.visible": false,
+  "workbench.preferredDarkColorTheme": "Community Material Theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "right",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "vetur.format.options.tabSize": 4,
+  "terminal.integrated.fontSize": 15,
+  "window.restoreWindows": "all",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.blame.highlight.locations": ["gutter"],
+  "gitlens.changes.locations": ["gutter"],
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.detailsMarkdownFormat": "__${author}__, ${ago} ${' via 'pullRequest} &nbsp; _(${date})_ ",
+  "gitlens.statusBar.format": "${author}, ${agoOrDate} ${' via 'pullRequest}",
+  "editor.cursorBlinking": "smooth",
+  "gitlens.mode.active": "zen",
+  "gitlens.hovers.autolinks.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitDisabledWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "gitlens.codeLens.scopes": [],
+  "gitlens.hovers.autolinks.enhanced": false,
+  "editor.rulers": [120],
+  "java.codeGeneration.toString.codeStyle": "STRING_FORMAT",
+  "java.codeGeneration.useBlocks": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/usr/lib/jvm/java-8-openjdk-amd64",
+      "sources": "/usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip",
+      "javadoc": "https://docs.oracle.com/javase/8/docs/api",
+      "default": true
+    },
+    {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk-amd64",
+      "sources": "/usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip",
+      "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api",
+      "default": true
+    },
+    {
+      "name": "JavaSE-13",
+      "path": "/usr/lib/jvm/java-13-openjdk-amd64",
+      "sources": "/usr/lib/jvm/java-13-openjdk-amd64/lib/src.zip",
+      "javadoc": "https://docs.oracle.com/en/java/javase/13/docs/api",
+      "default": true
+    }
+  ],
+  "java.format.settings.profile": "GoogleStyle",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/intellij-java-google-style.xml",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "java.format.comments.enabled": false,
+  "java.format.enabled": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
