@@ -65,3 +65,37 @@ Saved in `./IDEs/vscode`:
 
 <br/>
 
+## XFCE
+
+This section includes additional XFCE specific settings.
+
+### Panel
+
+I am using a vertical panel: in _Panel Preferences_, set "mode: Deskbar".<br/>
+Besides this, a couple of CSS driven customizations were added to `~/.config/gtk-3.0/gtk.css` file:
+
+```css
+#xfce4-notification-plugin * { -gtk-icon-transform: scale(.6); }
+
+#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(.6); }
+
+#pulseaudio-button * { -gtk-icon-transform: scale(.6); }
+
+#clock-button { font-family: "Antonio"; font-size: 19px; color: #60e6b1 }
+
+/* TBD: Although works on another Xubuntu, on the desktop the bottom line is still present.
+tasklist button:checked {
+  border: 0px;
+  border-right: 1px solid #52c498;
+}
+*/
+
+/* Alt+Tab window (but I don't think it's working) */
+#xfwm-tabwin {
+   -XfwmTabwinWidget-icon-size: 96px;
+   -XfwmTabwinWidget-preview-size: 64px;
+}
+```
+
+<br/>
+

@@ -1,0 +1,30 @@
+#xfce4-notification-plugin * {
+  -gtk-icon-transform: scale(0.6);
+}
+
+#xfce4-power-manager-plugin * {
+  -gtk-icon-transform: scale(0.6);
+}
+
+#pulseaudio-button * {
+  -gtk-icon-transform: scale(0.6);
+}
+
+#clock-button {
+  font-family: 'Antonio';
+  font-size: 19px;
+  color: #60e6b1;
+}
+
+/* TBD: Although it works on another Xubuntu, on the desktop the bottom line is still present.
+tasklist button:checked {
+  border: 0px;
+  border-right: 1px solid #52c498;
+}
+*/
+
+/* Alt+Tab window (TBD working) */
+#xfwm-tabwin {
+  -xfwmtabwinwidget-icon-size: 128px;
+  -xfwmtabwinwidget-preview-size: 64px;
+}
